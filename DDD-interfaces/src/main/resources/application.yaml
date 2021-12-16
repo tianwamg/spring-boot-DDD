@@ -1,0 +1,14 @@
+server:
+  port: 10081
+  servlet:
+    context-path: /spring--boot-ddd
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: qwer1234
+    url: jdbc:mysql://localhost:3306/test?useSSL=false
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
